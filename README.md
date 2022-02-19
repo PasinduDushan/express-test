@@ -40,7 +40,7 @@ $ npm test command_1
 
 3. In the ```command_3``` you have to write the same logic above but unlike before you have to send a userId to the client instead of ```200``` status code. You must specify user id as ```userId``` and for the user id you can send any integer. 
 
-4. In the ```command_4``` you have to implement the same login and also add a new functionality which will check base64 tokens and if the token is base64, function will return ```true``` or if not then it'll return ```false```. As said in the ```command_2``` you have to check if the base64 code is missing and if the given token is not a base64 then it'll return ```false```. You can implement this to the same logic as above. After than if everything is fine then you have to send the user id as specified above. 
+4. In the ```command_4``` you have to implement the same login and also add a new functionality which will check base64 tokens and if the token is base64, function will return ```true``` or if not then it'll return ```false```. As said in the ```command_2``` you have to check if the base64 code is missing and if the given token is not a base64 then it'll return ```false```. You can implement this to the same logic as above. You have to write regex to identify base64 or if you don't know how to do that then you can use an alternate way. After than if everything is fine then you have to send the user id as specified above. 
 
 ### Make sure you test the code after you write it. You can test it one by one using ```npm test command_1``` as an example or you can test the whole code you code using  just ```npm test```
 
